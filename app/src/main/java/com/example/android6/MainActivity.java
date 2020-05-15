@@ -33,7 +33,8 @@ public class MainActivity extends AppCompatActivity {
             {
                 Toast.makeText(context,"Connected", Toast.LENGTH_LONG).show();
 
-            } else {
+            } 
+            else {
                 Toast.makeText(context,"No connection", Toast.LENGTH_LONG).show();
             }
         }
